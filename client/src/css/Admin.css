@@ -1,0 +1,93 @@
+.admin-product-row {
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.7);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.product-price {
+    width: 5rem;
+}
+
+.admin-product-button {
+    width: 5rem;
+    color: white;
+    background-color: black;
+    margin: .5rem 0rem;
+}
+
+.product-id {
+    width: 5rem;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.page-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.sort-list {
+    margin-left: 2rem;
+}
+
+.product-weight {
+    width: 5rem;
+}
+
+.admin-input-width {
+    width: 15rem;
+}
+
+.id-input-width {
+    width: auto;
+}
+
+.order-container {
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+    padding: 1rem;
+    background-color: var(--light-blue);
+    margin: 1rem;
+}
+
+.order-section {
+    margin: 1rem;
+}
+
+.order-button {
+    padding: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: var(--tertiary);
+    color: white;
+}
+
+.order-button:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.confirm {
+    background-color: green;
+    font-weight: bold;
+    padding: 0rem .5rem;
+}
+
+.not-confirm {
+    background-color: red;
+    font-weight: bold;
+    padding: 0rem .5rem;
+}
+
+.single-order-list {
+    margin-right: 1rem;
+}
+
+.product-form-container {
+    width: 30rem;
+    background-color: var(--light-blue);
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
