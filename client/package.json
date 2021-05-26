@@ -1,7 +1,6 @@
 {
   "name": "king-seafood",
   "version": "1.0.0",
-  "homepage": "http://nchow18.github.io/king-seafood-app",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
