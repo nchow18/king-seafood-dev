@@ -1,31 +1,30 @@
 {
-  "name": "king-seafood",
+  "name": "book-search",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "if-env": "^1.0.4",
-    "jsonwebtoken": "^8.5.1"
-  },
-  "devDependencies": {
-    "concurrently": "^6.1.0"
-  },
+  "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "heroku-postbuild": "cd client && npm run build"
+    "heroku-postbuild": "cd client && npm run build",
+    "seed": "cd server && npm run seed"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nchow18/king-seafood-app.git"
+    "url": "git@work.github.com:nchow18/book-search.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nchow18/king-seafood-app/issues"
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "graphql": "^15.5.0",
+    "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.5.1"
   },
-  "homepage": "https://github.com/nchow18/king-seafood-app#readme"
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
